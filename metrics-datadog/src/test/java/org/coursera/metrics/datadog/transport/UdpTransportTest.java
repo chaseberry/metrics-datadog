@@ -50,7 +50,7 @@ public class UdpTransportTest {
       retryingCallable.call();
       assertFalse(true);
     } catch (final Exception e) {}
-    // ^ This should throw becuase the host is unresolvable.
+    // ^ This should throw because the host is unresolvable.
 
     DnsCacheManipulator.setDnsCache(TEST_HOST, LOCAL_IP); // Make host resolvable.
     assertNotNull(retryingCallable.call()); // Returns with resolved by the time it's resolvable.
