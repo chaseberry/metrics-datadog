@@ -7,12 +7,12 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.coursera</groupId>
-    <artifactId>metrics-datadog-parent</artifactId>
-    <version>2.0.0-RC1</version>
+    <groupId>com.chase</groupId>
+    <artifactId>metrics-datadog</artifactId>
+    <version>2.0.0-RC2</version>
     <packaging>pom</packaging>
     <name>Datadog Metrics Parent</name>
-    <url>https://github.com/coursera/metrics-datadog</url>
+    <url>https://github.com/chaseberry/metrics-datadog</url>
 
     <modules>
         <module>metrics-datadog</module>

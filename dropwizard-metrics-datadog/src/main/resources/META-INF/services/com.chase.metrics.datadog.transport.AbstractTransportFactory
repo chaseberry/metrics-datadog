@@ -1,0 +1,2 @@
+com.chase.metrics.datadog.transport.HttpTransportFactory
+com.chase.metrics.datadog.transport.UdpTransportFactory
